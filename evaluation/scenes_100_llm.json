@@ -1,0 +1,3908 @@
+{
+  "config": {
+    "bbox": {
+      "north": 49.05,
+      "south": 48.98,
+      "east": 8.45,
+      "west": 8.34
+    },
+    "num_points": 100,
+    "search_radius_m": 30,
+    "max_buildings": 8,
+    "seed": 312566,
+    "generation_method": "LLM+Neo4j",
+    "model": "DeepSeek-V4-Flash"
+  },
+  "points": [
+    {
+      "id": 0,
+      "lon": 8.425458,
+      "lat": 49.018546,
+      "ground_truth_lon": 8.425458,
+      "ground_truth_lat": 49.018546,
+      "description": "I am approximately 13 meters north of a building with both sides and roof in unknown. Twenty-three meters to my northwest is another building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_18869",
+          "distance_m": 12.8,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_19030",
+          "distance_m": 22.8,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "lon": 8.402986,
+      "lat": 48.982813,
+      "ground_truth_lon": 8.402986,
+      "ground_truth_lat": 48.982813,
+      "description": "I am approximately 6 meters southwest of a building with a white side and gray roof. Twenty meters to my southeast stands another building with a white side and gray roof. Thirty-seven meters northwest of me is a building with both sides and roof in unknown. Twenty-nine meters to my west is yet another building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_13834",
+          "distance_m": 20.2,
+          "direction": "SE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_15992",
+          "distance_m": 6.3,
+          "direction": "SW",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_13843",
+          "distance_m": 28.8,
+          "direction": "W",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_37114",
+          "distance_m": 27.1,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lon": 8.408141,
+      "lat": 49.001449,
+      "ground_truth_lon": 8.408141,
+      "ground_truth_lat": 49.001449,
+      "description": "I am approximately 13 meters northwest of a building with both sides and roof in dark blue, inside which there is a pharmacy. Twenty meters to my northeast is another building with a red-brown side and dark gray roof, housing a bookmaker. Twenty-seven meters north of me stands a building with a dark gray side and purple-red roof. Twenty-seven meters southwest of me, a building with a gray-white side and dark gray roof contains a place_of_worship.",
+      "nearby_buildings": [
+        {
+          "id": "b_5807",
+          "distance_m": 26.6,
+          "direction": "N",
+          "color_side": "dark gray",
+          "color_top": "purple-red",
+          "pois": []
+        },
+        {
+          "id": "b_4822",
+          "distance_m": 20.0,
+          "direction": "NE",
+          "color_side": "red-brown",
+          "color_top": "dark gray",
+          "pois": [
+            {
+              "fclass": "bookmaker",
+              "name": "Bet3000"
+            }
+          ]
+        },
+        {
+          "id": "b_2396",
+          "distance_m": 27.2,
+          "direction": "SW",
+          "color_side": "gray-white",
+          "color_top": "dark gray",
+          "pois": [
+            {
+              "fclass": "place_of_worship",
+              "name": "Johanniskirche"
+            }
+          ]
+        },
+        {
+          "id": "b_4815",
+          "distance_m": 13.4,
+          "direction": "NW",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": [
+            {
+              "fclass": "pharmacy",
+              "name": "Marienapotheke"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lon": 8.447083,
+      "lat": 49.014895,
+      "ground_truth_lon": 8.447083,
+      "ground_truth_lat": 49.014895,
+      "description": "I am approximately 8 meters north of a building with both sides and roof in unknown. Eight meters to my southwest stands a building with a gray side and dark gray roof. Fifteen meters east of me is a building with a gray side and dark gray roof. Sixteen meters to my west is another building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_7610",
+          "distance_m": 7.6,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_7403",
+          "distance_m": 16.4,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_7612",
+          "distance_m": 15.4,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_44817",
+          "distance_m": 28.7,
+          "direction": "SE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_5565",
+          "distance_m": 23.9,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_7404",
+          "distance_m": 7.8,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_7370",
+          "distance_m": 16.3,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_7363",
+          "distance_m": 27.5,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "lon": 8.384621,
+      "lat": 49.021144,
+      "ground_truth_lon": 8.384621,
+      "ground_truth_lat": 49.021144,
+      "description": "I am approximately 6 meters north of a building with a purple side and dark blue roof. Twelve meters to my southwest is a building with both sides and roof in gray. Seventeen meters to my east stands a building with a purple side and blue roof. Twenty-nine meters to my west is a building with a dark blue side and gray-green roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_37805",
+          "distance_m": 17.1,
+          "direction": "E",
+          "color_side": "purple",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_37804",
+          "distance_m": 5.6,
+          "direction": "S",
+          "color_side": "purple",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_37803",
+          "distance_m": 11.9,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_11017",
+          "distance_m": 28.5,
+          "direction": "W",
+          "color_side": "dark blue",
+          "color_top": "gray-green",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "lon": 8.365906,
+      "lat": 48.987656,
+      "ground_truth_lon": 8.365906,
+      "ground_truth_lat": 48.987656,
+      "description": "I am approximately 16 meters west of a building with a gray-purple side and gray-blue roof. Twenty meters to my south is another building with both sides and roof in unknown. Twenty-seven meters to my southeast stands a building with a gray side and green roof, inside which there is a school.",
+      "nearby_buildings": [
+        {
+          "id": "b_6687",
+          "distance_m": 26.5,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "green",
+          "pois": [
+            {
+              "fclass": "school",
+              "name": "Anne-Frank-Schule Karlsruhe"
+            }
+          ]
+        },
+        {
+          "id": "b_14929",
+          "distance_m": 20.5,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_6690",
+          "distance_m": 16.0,
+          "direction": "W",
+          "color_side": "gray-purple",
+          "color_top": "gray-blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "lon": 8.382305,
+      "lat": 49.010649,
+      "ground_truth_lon": 8.382305,
+      "ground_truth_lat": 49.010649,
+      "description": "I am approximately 4 meters southeast of a building with both sides and roof in unknown, inside which there is a shelter. Nine meters to my west is another building with both sides and roof in unknown, housing a shelter.",
+      "nearby_buildings": [
+        {
+          "id": "b_49124",
+          "distance_m": 3.9,
+          "direction": "SE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": [
+            {
+              "fclass": "shelter",
+              "name": null
+            }
+          ]
+        },
+        {
+          "id": "b_49123",
+          "distance_m": 9.2,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": [
+            {
+              "fclass": "shelter",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "lon": 8.352881,
+      "lat": 48.990647,
+      "ground_truth_lon": 8.352881,
+      "ground_truth_lat": 48.990647,
+      "description": "I am approximately 6 meters southwest of a building with a red side and gray roof. 12 meters to my east is a building with both sides and roof in gray. 15 meters to my south stands a building with a red side and purple roof. 16 meters to my north is a building with both sides and roof in blue. 26 meters to my west stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_26408",
+          "distance_m": 15.9,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_26366",
+          "distance_m": 12.3,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_26407",
+          "distance_m": 14.9,
+          "direction": "S",
+          "color_side": "red",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_26341",
+          "distance_m": 6.0,
+          "direction": "SW",
+          "color_side": "red",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_26355",
+          "distance_m": 26.1,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "lon": 8.357564,
+      "lat": 48.98797,
+      "ground_truth_lon": 8.357564,
+      "ground_truth_lat": 48.98797,
+      "description": "I am approximately 26 meters north of a building with both sides and roof in light gray. Twenty-eight meters to my northwest stands another building, with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_40781",
+          "distance_m": 26.1,
+          "direction": "N",
+          "color_side": "light gray",
+          "color_top": "light gray",
+          "pois": []
+        },
+        {
+          "id": "b_5474",
+          "distance_m": 28.2,
+          "direction": "NW",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "lon": 8.442466,
+      "lat": 49.003115,
+      "ground_truth_lon": 8.442466,
+      "ground_truth_lat": 49.003115,
+      "description": "Twenty-one meters to my west stands a building with a blue side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_37440",
+          "distance_m": 20.9,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "lon": 8.37592,
+      "lat": 48.997502,
+      "ground_truth_lon": 8.37592,
+      "ground_truth_lat": 48.997502,
+      "description": "I am approximately 10 meters east of a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_48491",
+          "distance_m": 10.0,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "lon": 8.3687,
+      "lat": 49.046792,
+      "ground_truth_lon": 8.3687,
+      "ground_truth_lat": 49.046792,
+      "description": "I am approximately 12 meters southeast of a building with both sides and roof in light gray, inside which there is a restaurant. 20 meters to my southwest is a building with a gray side and light gray roof. 25 meters to my northeast stands a building with both sides and roof in unknown. 27 meters to my north is a building with both sides and roof in unknown. 28 meters to my west stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_48701",
+          "distance_m": 27.1,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_33962",
+          "distance_m": 24.5,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_32521",
+          "distance_m": 11.6,
+          "direction": "SE",
+          "color_side": "light gray",
+          "color_top": "light gray",
+          "pois": [
+            {
+              "fclass": "restaurant",
+              "name": "Bei Giovanni"
+            }
+          ]
+        },
+        {
+          "id": "b_32538",
+          "distance_m": 20.4,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "light gray",
+          "pois": []
+        },
+        {
+          "id": "b_32530",
+          "distance_m": 27.6,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "lon": 8.365444,
+      "lat": 49.018027,
+      "ground_truth_lon": 8.365444,
+      "ground_truth_lat": 49.018027,
+      "description": "I am approximately 11 meters north of a building with both sides and roof in gray. Fourteen meters to my east stands a building with a gray side and dark gray roof. Sixteen meters southwest of me is a building with a brown side and dark gray roof. Nineteen meters south lies a building with a gray side and dark gray roof. Twenty-four meters west I see a building with a gray side and dark blue roof. Twenty-seven meters northwest I notice a building with a red-brown side and dark blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_38814",
+          "distance_m": 11.2,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_38822",
+          "distance_m": 14.0,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_17005",
+          "distance_m": 19.3,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_16997",
+          "distance_m": 15.8,
+          "direction": "SW",
+          "color_side": "brown",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_17000",
+          "distance_m": 24.0,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_38812",
+          "distance_m": 26.8,
+          "direction": "NW",
+          "color_side": "red-brown",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "lon": 8.385466,
+      "lat": 49.007165,
+      "ground_truth_lon": 8.385466,
+      "ground_truth_lat": 49.007165,
+      "description": "I am approximately 23 meters south of a building with a pink side and blue roof. Twenty-four meters to my northeast is another building with a gray side and dark gray roof. Twenty-nine meters southeast of me stands a building with a brown side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_44527",
+          "distance_m": 24.1,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_11634",
+          "distance_m": 28.9,
+          "direction": "SE",
+          "color_side": "brown",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_38058",
+          "distance_m": 22.8,
+          "direction": "S",
+          "color_side": "pink",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "lon": 8.351264,
+      "lat": 48.99996,
+      "ground_truth_lon": 8.351264,
+      "ground_truth_lat": 48.99996,
+      "description": "I am approximately 17 meters southwest of a building with a dark blue side and gray-purple roof. Eighteen meters to my west is another building with a blue side and pink roof. Nineteen meters northeast of me stands a building with a blue side and gray roof. Twenty-seven meters to my northwest, there is a building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_23454",
+          "distance_m": 19.3,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_23537",
+          "distance_m": 17.4,
+          "direction": "SW",
+          "color_side": "dark blue",
+          "color_top": "gray-purple",
+          "pois": []
+        },
+        {
+          "id": "b_23548",
+          "distance_m": 17.5,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "pink",
+          "pois": []
+        },
+        {
+          "id": "b_23556",
+          "distance_m": 26.8,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "lon": 8.358451,
+      "lat": 49.031438,
+      "ground_truth_lon": 8.358451,
+      "ground_truth_lat": 49.031438,
+      "description": "Fifteen meters north of me stands a building with both sides and roof in unknown. Twenty-two meters to my west is another building with both sides and roof in unknown. To the south, twenty-two meters away, is a building with a blue side and dark blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_11746",
+          "distance_m": 15.3,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_45078",
+          "distance_m": 22.4,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_45071",
+          "distance_m": 21.8,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "lon": 8.35968,
+      "lat": 49.019315,
+      "ground_truth_lon": 8.35968,
+      "ground_truth_lat": 49.019315,
+      "description": "I am approximately 7 meters southeast of a building with a gray side and green roof. About 16 meters to my southwest is another building with both sides and roof in gray. Twenty-three meters east of me stands a building with both sides and roof in blue. Thirty-five meters south of me is a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_4994",
+          "distance_m": 22.7,
+          "direction": "E",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_34103",
+          "distance_m": 7.3,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "green",
+          "pois": []
+        },
+        {
+          "id": "b_34101",
+          "distance_m": 25.5,
+          "direction": "S",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_34107",
+          "distance_m": 15.5,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "lon": 8.34607,
+      "lat": 48.993866,
+      "ground_truth_lon": 8.34607,
+      "ground_truth_lat": 48.993866,
+      "description": "I am approximately 9 meters east of a building with both sides and roof in unknown. Twelve meters to my south stands a building with a gray side and dark gray roof. Another building is located 21 meters southwest of me, with a gray side and dark gray roof. Twenty-seven meters northeast of me is a building with a dark gray side and red-brown roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_27390",
+          "distance_m": 27.3,
+          "direction": "NE",
+          "color_side": "dark gray",
+          "color_top": "red-brown",
+          "pois": []
+        },
+        {
+          "id": "b_27241",
+          "distance_m": 9.4,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_27216",
+          "distance_m": 12.2,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_27260",
+          "distance_m": 20.6,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "lon": 8.363469,
+      "lat": 49.021843,
+      "ground_truth_lon": 8.363469,
+      "ground_truth_lat": 49.021843,
+      "description": "I am approximately 11 meters south of a building with a gray side and dark gray roof. Eighteen meters to my southeast stands a building with both sides and roof in gray. Nineteen meters southwest of me is a building with a gray side and dark gray roof. Another building, also with a gray side and dark gray roof, is located 19 meters to my east.",
+      "nearby_buildings": [
+        {
+          "id": "b_2223",
+          "distance_m": 18.7,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_34886",
+          "distance_m": 17.6,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_2224",
+          "distance_m": 10.6,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_2226",
+          "distance_m": 18.6,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "lon": 8.442111,
+      "lat": 48.990946,
+      "ground_truth_lon": 8.442111,
+      "ground_truth_lat": 48.990946,
+      "description": "I am approximately 10 meters to the northeast of a building with a gray side and dark gray roof. About 10 meters to my west stands a building with a gray side and dark blue roof. Twenty meters southwest of me is a building with a dark blue side and light gray roof. Twenty-three meters to my south, I see a building with both sides and roof in blue. Twenty-nine meters southeast of me, there is a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_16852",
+          "distance_m": 10.0,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_16926",
+          "distance_m": 29.2,
+          "direction": "SE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_17035",
+          "distance_m": 23.3,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_17033",
+          "distance_m": 19.9,
+          "direction": "SW",
+          "color_side": "dark blue",
+          "color_top": "light gray",
+          "pois": []
+        },
+        {
+          "id": "b_16927",
+          "distance_m": 10.1,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "lon": 8.408625,
+      "lat": 49.006487,
+      "ground_truth_lon": 8.408625,
+      "ground_truth_lat": 49.006487,
+      "description": "I am approximately 8 meters east of a building with both sides and roof in unknown. Eighteen meters to my southwest stands a building with both sides and roof in gray, inside which there is a musical_instrument. About 18 meters south of me is a building with a white side and gray roof. Thirty-five meters northeast of me? Wait, the input says northeast 18m for b_7903. Actually b_7903 is northeast 18m, b_7897 is west 28m, b_7892 is southeast 28m. So correct order: b_7889 (east 8m), b_7904 (southwest 18m), b_7898 (south 18m), b_7903 (northeast 18m), b_7897 (west 28m), b_7892 (southeast 28m).\n\nLet's reorder naturally. I'll start with the closest. Vary phrasing: \"I am approximately 8 meters east of a building...\", \"Twenty meters to my southwest? Actually 18 meters. Use \"Eighteen meters southwest of me there is a building...\", \"To my south, 18 meters away, stands a building...\", \"Northeast of me, 18 meters distant, is a building...\", \"Twenty-eight meters west of me I see a building...\", \"Southeast, 28 meters from my position, sits a building...\"\n\nMake sure to copy colors exactly. For b_7889: \"with both sides and roof in unknown\" – unknown is a color? It says unknown, so keep as is.\n\nWrite one continuous paragraph.I am approximately 8 meters east of a building with both sides and roof in unknown. Eighteen meters southwest of me stands a building with both sides and roof in",
+      "nearby_buildings": [
+        {
+          "id": "b_7903",
+          "distance_m": 18.1,
+          "direction": "NE",
+          "color_side": "purple",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_7889",
+          "distance_m": 7.8,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_7892",
+          "distance_m": 27.7,
+          "direction": "SE",
+          "color_side": "red-brown",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_7898",
+          "distance_m": 17.8,
+          "direction": "S",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_7904",
+          "distance_m": 17.7,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": [
+            {
+              "fclass": "musical_instrument",
+              "name": "Zupfgeige"
+            }
+          ]
+        },
+        {
+          "id": "b_7897",
+          "distance_m": 27.6,
+          "direction": "W",
+          "color_side": "pink",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "lon": 8.404234,
+      "lat": 48.985568,
+      "ground_truth_lon": 8.404234,
+      "ground_truth_lat": 48.985568,
+      "description": "I am approximately 17 meters northwest of a building with a blue-purple side and dark blue roof. About 18 meters to my north is another building with a red-brown side and dark blue roof, containing a restaurant.",
+      "nearby_buildings": [
+        {
+          "id": "b_49636",
+          "distance_m": 18.4,
+          "direction": "N",
+          "color_side": "red-brown",
+          "color_top": "dark blue",
+          "pois": [
+            {
+              "fclass": "restaurant",
+              "name": "Yangda"
+            }
+          ]
+        },
+        {
+          "id": "b_19948",
+          "distance_m": 16.9,
+          "direction": "NW",
+          "color_side": "blue-purple",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "lon": 8.366844,
+      "lat": 49.007215,
+      "ground_truth_lon": 8.366844,
+      "ground_truth_lat": 49.007215,
+      "description": "Twenty-three meters to my northeast is a building with both sides and roof in gray. Twenty-three meters to my south is a building with a blue side and gray roof. Twenty-seven meters to my southeast stands a building with a light gray side and dark blue roof. Finally, twenty-seven meters to my southwest is a building with both sides and roof in dark blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_44716",
+          "distance_m": 23.1,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_38600",
+          "distance_m": 26.6,
+          "direction": "SE",
+          "color_side": "light gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_38601",
+          "distance_m": 23.3,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_38602",
+          "distance_m": 26.8,
+          "direction": "SW",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "lon": 8.353002,
+      "lat": 49.034799,
+      "ground_truth_lon": 8.353002,
+      "ground_truth_lat": 49.034799,
+      "description": "I am approximately 12 meters southwest of a building with a pink side and gray roof. Fourteen meters to my south is another building with both sides and roof in gray. Fifteen meters southeast of me stands a building with both sides and roof in gray. Sixteen meters to my east is a building with both sides and roof in gray. Twenty meters northwest of me, there is a building with both sides and roof in blue. Finally, twenty-five meters west of me sits a building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_5514",
+          "distance_m": 16.0,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_5534",
+          "distance_m": 15.2,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_5516",
+          "distance_m": 14.0,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_5515",
+          "distance_m": 11.5,
+          "direction": "SW",
+          "color_side": "pink",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_5532",
+          "distance_m": 24.5,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_5533",
+          "distance_m": 20.4,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "lon": 8.38975,
+      "lat": 49.029377,
+      "ground_truth_lon": 8.38975,
+      "ground_truth_lat": 49.029377,
+      "description": "I am approximately 8 meters north of a building with both sides and roof in white. Twenty meters to my east stands another building with both sides and roof in white. Twenty-five meters northwest of me is a building with both sides and roof in white.",
+      "nearby_buildings": [
+        {
+          "id": "b_41270",
+          "distance_m": 8.0,
+          "direction": "N",
+          "color_side": "white",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_41267",
+          "distance_m": 20.2,
+          "direction": "E",
+          "color_side": "white",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_41272",
+          "distance_m": 25.3,
+          "direction": "NW",
+          "color_side": "white",
+          "color_top": "white",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "lon": 8.389791,
+      "lat": 49.030789,
+      "ground_truth_lon": 8.389791,
+      "ground_truth_lat": 49.030789,
+      "description": "I am approximately 26 meters northeast of a building with a white side and gray roof. 27 meters to my north is a building with a gray side and blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_36426",
+          "distance_m": 27.2,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_36411",
+          "distance_m": 26.5,
+          "direction": "NE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "lon": 8.392563,
+      "lat": 49.031294,
+      "ground_truth_lon": 8.392563,
+      "ground_truth_lat": 49.031294,
+      "description": "I am approximately 29 meters north of a building with a red-brown side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_41300",
+          "distance_m": 29.0,
+          "direction": "S",
+          "color_side": "red-brown",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "lon": 8.359786,
+      "lat": 49.042856,
+      "ground_truth_lon": 8.359786,
+      "ground_truth_lat": 49.042856,
+      "description": "I am approximately 16 meters southeast of a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_33667",
+          "distance_m": 16.4,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "lon": 8.388875,
+      "lat": 49.032137,
+      "ground_truth_lon": 8.388875,
+      "ground_truth_lat": 49.032137,
+      "description": "I am approximately 14 meters north of a building with a pink side and white roof. Seventeen meters to my southeast is another building with both sides and roof in orange. Eighteen meters east of me stands a building with both sides and roof in pink. Twenty-two meters to my northwest sits a building with a brown side and gray roof. Finally, twenty-four meters south of me is a building with both sides and roof in red.",
+      "nearby_buildings": [
+        {
+          "id": "b_36423",
+          "distance_m": 13.8,
+          "direction": "N",
+          "color_side": "pink",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_36380",
+          "distance_m": 17.8,
+          "direction": "E",
+          "color_side": "pink",
+          "color_top": "pink",
+          "pois": []
+        },
+        {
+          "id": "b_36379",
+          "distance_m": 16.9,
+          "direction": "SE",
+          "color_side": "orange",
+          "color_top": "orange",
+          "pois": []
+        },
+        {
+          "id": "b_36402",
+          "distance_m": 23.7,
+          "direction": "S",
+          "color_side": "red",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_36414",
+          "distance_m": 22.0,
+          "direction": "NW",
+          "color_side": "brown",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "lon": 8.443433,
+      "lat": 49.018003,
+      "ground_truth_lon": 8.443433,
+      "ground_truth_lat": 49.018003,
+      "description": "I am approximately 12 meters north of a building with a blue side and dark blue roof. Seventeen meters to my west stands another building with a purple side and dark purple roof. Twenty-five meters southwest of me is a building with both sides and roof in unknown. Twenty-seven meters to my northeast rises a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_3091",
+          "distance_m": 11.5,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_3743",
+          "distance_m": 26.9,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_46466",
+          "distance_m": 25.0,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_3093",
+          "distance_m": 17.0,
+          "direction": "W",
+          "color_side": "purple",
+          "color_top": "dark purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "lon": 8.39861,
+      "lat": 49.049955,
+      "ground_truth_lon": 8.39861,
+      "ground_truth_lat": 49.049955,
+      "description": "I am approximately 3 meters south of a building with both sides and roof in unknown. 5 meters to my southwest is a building with both sides and roof in unknown. 10 meters to my north stands a building with both sides and roof in unknown. 12 meters to my northeast is a building with a dark blue side and gray-white roof. 13 meters to my west stands a building with a gray side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_41838",
+          "distance_m": 9.7,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_41833",
+          "distance_m": 12.1,
+          "direction": "NE",
+          "color_side": "dark blue",
+          "color_top": "gray-white",
+          "pois": []
+        },
+        {
+          "id": "b_41873",
+          "distance_m": 3.3,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_41837",
+          "distance_m": 5.3,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_41836",
+          "distance_m": 13.0,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "lon": 8.402029,
+      "lat": 48.998039,
+      "ground_truth_lon": 8.402029,
+      "ground_truth_lat": 48.998039,
+      "description": "Twenty-four meters to my northeast stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_45923",
+          "distance_m": 24.0,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "lon": 8.349027,
+      "lat": 48.991572,
+      "ground_truth_lon": 8.349027,
+      "ground_truth_lat": 48.991572,
+      "description": "I am approximately 8 meters east of a building with both sides and roof in purple. Twelve meters to my southwest stands a building with a blue side and dark blue roof. Sixteen meters south of me is a building with both sides and roof in unknown. Twenty meters to my east is a building with both sides and roof in gray. Finally, twenty-two",
+      "nearby_buildings": [
+        {
+          "id": "b_27001",
+          "distance_m": 20.5,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_27069",
+          "distance_m": 16.3,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_27075",
+          "distance_m": 12.2,
+          "direction": "SW",
+          "color_side": "blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_27098",
+          "distance_m": 8.0,
+          "direction": "W",
+          "color_side": "purple",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_27099",
+          "distance_m": 21.6,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "lon": 8.383102,
+      "lat": 49.010776,
+      "ground_truth_lon": 8.383102,
+      "ground_truth_lat": 49.010776,
+      "description": "I am approximately 17 meters west of a building with both sides and roof in unknown, inside which there are shelter, a bench, and a vending_machine.",
+      "nearby_buildings": [
+        {
+          "id": "b_49121",
+          "distance_m": 17.1,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": [
+            {
+              "fclass": "shelter",
+              "name": null
+            },
+            {
+              "fclass": "bench",
+              "name": null
+            },
+            {
+              "fclass": "vending_machine",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "lon": 8.341249,
+      "lat": 49.002439,
+      "ground_truth_lon": 8.341249,
+      "ground_truth_lat": 49.002439,
+      "description": "I am approximately 15 meters to the northwest of a building with both sides and roof in gray. Twenty-two meters north of me is another building, also with both sides and roof in gray. Twenty-six meters to my west stands a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_39524",
+          "distance_m": 21.6,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_39525",
+          "distance_m": 26.3,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_21617",
+          "distance_m": 15.1,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "lon": 8.352406,
+      "lat": 48.997434,
+      "ground_truth_lon": 8.352406,
+      "ground_truth_lat": 48.997434,
+      "description": "Eleven meters to my east is a building with both sides and roof in blue. Thirteen meters northeast of me stands another building with both sides and roof in blue. Seventeen meters to my southwest, I see a building with both sides and roof in unknown. Directly north, eighteen meters away, there is a building with both sides and roof in blue. Nineteen meters southeast of me is a building with both sides and roof in blue. Twenty-six meters south, I find a building with both sides and roof in blue. Twenty-six meters to my west is a building with a blue side and white roof. Finally, twenty-eight meters northwest of me sits a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_25928",
+          "distance_m": 17.8,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25920",
+          "distance_m": 12.7,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25944",
+          "distance_m": 11.0,
+          "direction": "E",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25940",
+          "distance_m": 19.0,
+          "direction": "SE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25972",
+          "distance_m": 25.7,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25903",
+          "distance_m": 17.4,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_25979",
+          "distance_m": 25.9,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_25892",
+          "distance_m": 27.7,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "lon": 8.394262,
+      "lat": 49.008769,
+      "ground_truth_lon": 8.394262,
+      "ground_truth_lat": 49.008769,
+      "description": "I am approximately 22 meters north of a building with a dark blue side and gray-white roof, inside which there is a vending_machine.",
+      "nearby_buildings": [
+        {
+          "id": "b_45267",
+          "distance_m": 21.7,
+          "direction": "S",
+          "color_side": "dark blue",
+          "color_top": "gray-white",
+          "pois": [
+            {
+              "fclass": "vending_machine",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "lon": 8.446696,
+      "lat": 49.027117,
+      "ground_truth_lon": 8.446696,
+      "ground_truth_lat": 49.027117,
+      "description": "Ten meters to my west stands a building with a gray side and white roof. Eleven meters south of me is another building with both sides and roof in gray. To my southeast, 18 meters away, there is a building with a gray side and dark gray roof. Northwest of me, at 19 meters, a building has both sides and roof in gray. Twenty-five meters east of me, a building also has both sides and roof in gray. Twenty-six meters north, I see a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_13805",
+          "distance_m": 26.0,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_13803",
+          "distance_m": 24.9,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_13802",
+          "distance_m": 17.7,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_13807",
+          "distance_m": 10.8,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_13804",
+          "distance_m": 10.0,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_13806",
+          "distance_m": 18.7,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "lon": 8.390907,
+      "lat": 49.011703,
+      "ground_truth_lon": 8.390907,
+      "ground_truth_lat": 49.011703,
+      "description": "I am approximately 11 meters west of a building with a gray side and dark gray roof. Seventeen meters to my southwest stands a building with both sides and roof in dark gray. Twenty-three meters northeast of me is another building with a dark blue side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_27634",
+          "distance_m": 22.5,
+          "direction": "NE",
+          "color_side": "dark blue",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_9230",
+          "distance_m": 17.4,
+          "direction": "SW",
+          "color_side": "dark gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_44779",
+          "distance_m": 11.0,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "lon": 8.408258,
+      "lat": 49.003826,
+      "ground_truth_lon": 8.408258,
+      "ground_truth_lat": 49.003826,
+      "description": "I am approximately 9 meters south of a building with a gray side and dark blue roof. 12 meters to my southwest is a building with a gray side and dark gray roof. 17 meters to my northeast stands a building with a blue side and gray roof. 18 meters to my northwest is a building with a white side and gray roof. 21 meters to my southeast stands a building with a gray side and dark gray roof, inside which there are restaurant, a doctors, and a bar. 27 meters to my west is a building with a brown side and dark gray roof, inside which there is a antiques. 27 meters to my east stands a building with a gray side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_5657",
+          "distance_m": 16.7,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_5728",
+          "distance_m": 27.5,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_4741",
+          "distance_m": 21.2,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": [
+            {
+              "fclass": "restaurant",
+              "name": "Kommödchen"
+            },
+            {
+              "fclass": "doctors",
+              "name": "Dr. med. Bernhard Gessler"
+            },
+            {
+              "fclass": "bar",
+              "name": "Kommödchen Kaffee- und Weinbar"
+            }
+          ]
+        },
+        {
+          "id": "b_4715",
+          "distance_m": 9.2,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_5692",
+          "distance_m": 11.9,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_5651",
+          "distance_m": 27.3,
+          "direction": "W",
+          "color_side": "brown",
+          "color_top": "dark gray",
+          "pois": [
+            {
+              "fclass": "antiques",
+              "name": "Südstadt Antiquariat Bücher & Graphik"
+            }
+          ]
+        },
+        {
+          "id": "b_5697",
+          "distance_m": 17.9,
+          "direction": "NW",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "lon": 8.434592,
+      "lat": 49.029332,
+      "ground_truth_lon": 8.434592,
+      "ground_truth_lat": 49.029332,
+      "description": "Thirty meters to my southeast stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_48522",
+          "distance_m": 30.0,
+          "direction": "SE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "lon": 8.397517,
+      "lat": 49.013895,
+      "ground_truth_lon": 8.397517,
+      "ground_truth_lat": 49.013895,
+      "description": "I am approximately 19 meters northwest of a building with a gray side and light purple roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_2695",
+          "distance_m": 19.1,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "light purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "lon": 8.390403,
+      "lat": 49.030813,
+      "ground_truth_lon": 8.390403,
+      "ground_truth_lat": 49.030813,
+      "description": "Fourteen meters to my southwest is a building with a gray side and dark gray roof. Sixteen meters to my south is another building with a gray side and dark gray roof. Seventeen meters to my north stands a building with a gray side and dark gray roof. Twenty-three meters to my west is a building with a brown side and gray roof. Twenty-four meters to my southeast sits a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_37079",
+          "distance_m": 16.5,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_36411",
+          "distance_m": 23.7,
+          "direction": "SE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_36418",
+          "distance_m": 15.5,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_36433",
+          "distance_m": 13.9,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_36424",
+          "distance_m": 23.1,
+          "direction": "W",
+          "color_side": "brown",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "lon": 8.342843,
+      "lat": 49.038787,
+      "ground_truth_lon": 8.342843,
+      "ground_truth_lat": 49.038787,
+      "description": "I am approximately 11 meters northeast of a building with both sides and roof in unknown. Twenty-one meters to my southwest stands a building with a gray side and blue roof. To my north, 22 meters away, is another building with both sides and roof in unknown. Twenty-six meters northwest of me sits a building with both sides and roof in blue. Finally, 27 meters south of me there is a building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_31176",
+          "distance_m": 21.8,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_31180",
+          "distance_m": 11.2,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_47935",
+          "distance_m": 27.1,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_49831",
+          "distance_m": 20.9,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_31197",
+          "distance_m": 26.0,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "lon": 8.442332,
+      "lat": 49.017323,
+      "ground_truth_lon": 8.442332,
+      "ground_truth_lat": 49.017323,
+      "description": "I am approximately 17 meters to the southwest of a building with both sides and roof in unknown, inside which there is a waste_disposal. About 23 meters south of me stands another building with both sides and roof in unknown. Twenty-four meters to my west is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_47776",
+          "distance_m": 22.7,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_47755",
+          "distance_m": 16.9,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": [
+            {
+              "fclass": "waste_disposal",
+              "name": null
+            }
+          ]
+        },
+        {
+          "id": "b_46761",
+          "distance_m": 23.8,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "lon": 8.43982,
+      "lat": 48.981633,
+      "ground_truth_lon": 8.43982,
+      "ground_truth_lat": 48.981633,
+      "description": "I am approximately 28 meters south of a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_49443",
+          "distance_m": 28.3,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "lon": 8.4457,
+      "lat": 49.021432,
+      "ground_truth_lon": 8.4457,
+      "ground_truth_lat": 49.021432,
+      "description": "I am approximately 25 meters west of a building with a dark blue side and dark green roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_47326",
+          "distance_m": 25.2,
+          "direction": "W",
+          "color_side": "dark blue",
+          "color_top": "dark green",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "lon": 8.426334,
+      "lat": 49.006468,
+      "ground_truth_lon": 8.426334,
+      "ground_truth_lat": 49.006468,
+      "description": "I am approximately 10 meters north of a building with a gray side and blue roof. 24 meters to my south is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_30",
+          "distance_m": 9.7,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_10453",
+          "distance_m": 23.8,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "lon": 8.348557,
+      "lat": 49.001569,
+      "ground_truth_lon": 8.348557,
+      "ground_truth_lat": 49.001569,
+      "description": "I am approximately 12 meters west of a building with a blue side and red roof. Twenty-one meters to my northwest is another building with both sides and roof in unknown. Twenty-eight meters north of me stands a building with a gray side and white roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_23292",
+          "distance_m": 28.0,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_23278",
+          "distance_m": 12.4,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_23397",
+          "distance_m": 21.2,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "lon": 8.399709,
+      "lat": 48.985005,
+      "ground_truth_lon": 8.399709,
+      "ground_truth_lat": 48.985005,
+      "description": "I am approximately 9 meters northwest of a building with a dark blue side and gray-white roof. 9 meters to my north is a building with a gray side and dark gray roof. 13 meters to my northeast stands a building with a dark blue side and light gray roof. 18 meters to my east is a building with a blue side and gray roof. 19 meters to my south stands a building with both sides and roof in dark blue, inside which there is a kindergarten.",
+      "nearby_buildings": [
+        {
+          "id": "b_32987",
+          "distance_m": 9.4,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_15662",
+          "distance_m": 12.6,
+          "direction": "NE",
+          "color_side": "dark blue",
+          "color_top": "light gray",
+          "pois": []
+        },
+        {
+          "id": "b_15570",
+          "distance_m": 18.4,
+          "direction": "E",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_49586",
+          "distance_m": 19.3,
+          "direction": "S",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": [
+            {
+              "fclass": "kindergarten",
+              "name": "Katholischer Kindergarten St. Fidelis"
+            }
+          ]
+        },
+        {
+          "id": "b_15571",
+          "distance_m": 8.9,
+          "direction": "NW",
+          "color_side": "dark blue",
+          "color_top": "gray-white",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "lon": 8.447416,
+      "lat": 49.042015,
+      "ground_truth_lon": 8.447416,
+      "ground_truth_lat": 49.042015,
+      "description": "Twenty-two meters to my west stands a building with a purple side and blue roof, inside which there is a swimming_pool. Twenty-four meters to my north is another building with a purple side and blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_36256",
+          "distance_m": 23.8,
+          "direction": "N",
+          "color_side": "purple",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_36255",
+          "distance_m": 22.2,
+          "direction": "W",
+          "color_side": "purple",
+          "color_top": "blue",
+          "pois": [
+            {
+              "fclass": "swimming_pool",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "lon": 8.44892,
+      "lat": 49.011307,
+      "ground_truth_lon": 8.44892,
+      "ground_truth_lat": 49.011307,
+      "description": "I am approximately 6 meters southwest of a building with both sides and roof in unknown. Seventeen meters to my west stands a building with both sides and roof in unknown. Eighteen meters east of me is a building with both sides and roof in unknown. Nineteen meters northwest of me there is a building with both sides and roof in unknown. Directly north, 19 meters away, I see a building with both sides and roof in unknown. Twenty-four meters to my northeast sits a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_21040",
+          "distance_m": 19.1,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_20969",
+          "distance_m": 24.2,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_21004",
+          "distance_m": 17.9,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_21023",
+          "distance_m": 6.5,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_20963",
+          "distance_m": 16.7,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_21031",
+          "distance_m": 19.0,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "lon": 8.352938,
+      "lat": 48.993834,
+      "ground_truth_lon": 8.352938,
+      "ground_truth_lat": 48.993834,
+      "description": "I am approximately 4 meters northwest of a building with both sides and roof in gray. Five meters to my west stands another building with both sides and roof in unknown. Eleven meters north of me is a building with both sides and roof in blue. Thirteen meters south of me sits a building with both sides and roof in unknown. Sixteen meters northeast of me I can see a building with both sides and roof in gray. Finally, twenty meters southeast of me there is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_26006",
+          "distance_m": 10.5,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_25993",
+          "distance_m": 16.4,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_26285",
+          "distance_m": 19.5,
+          "direction": "SE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_26218",
+          "distance_m": 12.9,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_26234",
+          "distance_m": 5.5,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_26259",
+          "distance_m": 3.7,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "lon": 8.431196,
+      "lat": 49.010963,
+      "ground_truth_lon": 8.431196,
+      "ground_truth_lat": 49.010963,
+      "description": "I am approximately 12 meters southeast of a building with a gray side and dark gray roof. Eighteen meters to my northeast is another building with a gray side and dark gray roof. Nineteen meters north of me stands a building with a red-brown side and dark gray roof. Twenty-two meters southwest of me is a building with both sides and roof in unknown. Finally, twenty-six meters to my south sits a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_12784",
+          "distance_m": 18.9,
+          "direction": "N",
+          "color_side": "red-brown",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_12765",
+          "distance_m": 17.5,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_12786",
+          "distance_m": 12.3,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_12748",
+          "distance_m": 26.1,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_48483",
+          "distance_m": 22.0,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "lon": 8.441013,
+      "lat": 48.995161,
+      "ground_truth_lon": 8.441013,
+      "ground_truth_lat": 48.995161,
+      "description": "I am approximately 11 meters north of a building with both sides and roof in unknown. Eleven meters to my west is another building with both sides and roof in unknown. Fifteen meters northeast of me stands a building with both sides and roof in unknown. Twenty-seven meters to my east there is a building with both sides and roof in unknown. Twenty-eight meters north of me is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_17235",
+          "distance_m": 28.4,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17307",
+          "distance_m": 14.8,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17281",
+          "distance_m": 27.4,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17236",
+          "distance_m": 11.3,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17259",
+          "distance_m": 11.4,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "lon": 8.375553,
+      "lat": 49.045589,
+      "ground_truth_lon": 8.375553,
+      "ground_truth_lat": 49.045589,
+      "description": "I am approximately 18 meters east of a building with a pink side and white roof. Twenty-three meters to my south is another building with a pink side and purple roof. Twenty-eight meters southeast of me stands a building with a gray side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_33576",
+          "distance_m": 18.2,
+          "direction": "E",
+          "color_side": "pink",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_33584",
+          "distance_m": 27.7,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_33578",
+          "distance_m": 23.1,
+          "direction": "S",
+          "color_side": "pink",
+          "color_top": "purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "lon": 8.389204,
+      "lat": 49.012281,
+      "ground_truth_lon": 8.389204,
+      "ground_truth_lat": 49.012281,
+      "description": "I am approximately 9 meters southwest of a building with both sides and roof in dark blue. Twenty meters to my northeast is another building with both sides and roof in gray, inside which there is a social_facility. Seventeen meters southeast of me stands a building with a blue side and gray roof. Twenty-four meters to my south is a building with both sides and roof in dark blue. Twenty-seven meters northwest of me is a building with a dark blue side and dark gray roof. Finally, twenty-nine meters west of me is a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_10035",
+          "distance_m": 15.6,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": [
+            {
+              "fclass": "social_facility",
+              "name": "Jugendgästehaus Kettelerheim"
+            }
+          ]
+        },
+        {
+          "id": "b_10076",
+          "distance_m": 16.9,
+          "direction": "SE",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_10049",
+          "distance_m": 23.6,
+          "direction": "S",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_10054",
+          "distance_m": 8.6,
+          "direction": "SW",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_10078",
+          "distance_m": 29.1,
+          "direction": "W",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_10046",
+          "distance_m": 26.6,
+          "direction": "NW",
+          "color_side": "dark blue",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "lon": 8.375214,
+      "lat": 48.999977,
+      "ground_truth_lon": 8.375214,
+      "ground_truth_lat": 48.999977,
+      "description": "I am approximately 24 meters north of a building with both sides and roof in dark blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_12866",
+          "distance_m": 24.2,
+          "direction": "S",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "lon": 8.377339,
+      "lat": 48.99187,
+      "ground_truth_lon": 8.377339,
+      "ground_truth_lat": 48.99187,
+      "description": "I am approximately 6 meters northwest of a building with both sides and roof in unknown. Seventeen meters to my northeast is a building with a dark purple side and orange-red roof. Eighteen meters west of me stands a building with both sides and roof in unknown. Eighteen meters east of me is a building with a gray side and dark gray roof. Twenty-one meters southwest of me is a building with both sides and roof in unknown. Twenty-three meters north of me is a building with a dark blue side and purple-red roof. Twenty-seven meters southeast of me stands a building with a pink side and blue roof. Twenty-eight meters south of me is a building with a purple side and dark purple roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_18019",
+          "distance_m": 22.7,
+          "direction": "N",
+          "color_side": "dark blue",
+          "color_top": "purple-red",
+          "pois": []
+        },
+        {
+          "id": "b_17986",
+          "distance_m": 17.1,
+          "direction": "NE",
+          "color_side": "dark purple",
+          "color_top": "orange-red",
+          "pois": []
+        },
+        {
+          "id": "b_18005",
+          "distance_m": 18.4,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_17998",
+          "distance_m": 27.4,
+          "direction": "SE",
+          "color_side": "pink",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_17973",
+          "distance_m": 28.1,
+          "direction": "S",
+          "color_side": "purple",
+          "color_top": "dark purple",
+          "pois": []
+        },
+        {
+          "id": "b_49619",
+          "distance_m": 20.7,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17969",
+          "distance_m": 18.4,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_17985",
+          "distance_m": 6.2,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "lon": 8.358111,
+      "lat": 49.018428,
+      "ground_truth_lon": 8.358111,
+      "ground_truth_lat": 49.018428,
+      "description": "I am approximately 6 meters south of a building with both sides and roof in gray. Eleven meters to my southeast stands a building with a gray side and purple roof. Thirteen meters west of me is another building with a gray side and dark gray roof. Nineteen meters to my east, a building with a red side and blue roof catches my eye. Twenty-two meters southwest of me, there is a building with a gray side and white roof. To my northwest, twenty-two meters away, I see a building with a dark purple side and gray-white roof. Northeast of me, at a distance of twenty-four meters, is a building with a gray side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_34007",
+          "distance_m": 25.5,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_34013",
+          "distance_m": 23.8,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_4967",
+          "distance_m": 19.2,
+          "direction": "E",
+          "color_side": "red",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_4972",
+          "distance_m": 11.3,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_4970",
+          "distance_m": 6.4,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_33977",
+          "distance_m": 21.5,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_33972",
+          "distance_m": 13.0,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_7712",
+          "distance_m": 22.1,
+          "direction": "NW",
+          "color_side": "dark purple",
+          "color_top": "gray-white",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "lon": 8.373913,
+      "lat": 49.022083,
+      "ground_truth_lon": 8.373913,
+      "ground_truth_lat": 49.022083,
+      "description": "Twenty-five meters to my north stands a building with both sides and roof in blue. Approximately twenty-six meters to my northwest is another building, also with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_811",
+          "distance_m": 25.2,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_810",
+          "distance_m": 25.7,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "lon": 8.422673,
+      "lat": 49.002207,
+      "ground_truth_lon": 8.422673,
+      "ground_truth_lat": 49.002207,
+      "description": "To my west, 19 meters away, is a building with a gray side and dark gray roof. Thirty meters to my south stands another building with a light gray side and dark blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_20601",
+          "distance_m": 30.0,
+          "direction": "S",
+          "color_side": "light gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_20602",
+          "distance_m": 18.7,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "lon": 8.389011,
+      "lat": 48.996729,
+      "ground_truth_lon": 8.389011,
+      "ground_truth_lat": 48.996729,
+      "description": "I am approximately 13 meters south of a building with a blue side and gray roof. Nineteen meters to my north is another building with a white side and dark gray roof. Nineteen meters southeast of me stands a building with both sides and roof in dark blue. Twenty-one meters to my northwest is a building with a red-brown side and dark gray roof. Finally, 27 meters southwest of me lies a building with a gray side and dark blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_18416",
+          "distance_m": 18.7,
+          "direction": "N",
+          "color_side": "white",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_18409",
+          "distance_m": 19.0,
+          "direction": "SE",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_18410",
+          "distance_m": 13.2,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_18422",
+          "distance_m": 27.3,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_18408",
+          "distance_m": 21.3,
+          "direction": "NW",
+          "color_side": "red-brown",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "lon": 8.434971,
+      "lat": 49.007037,
+      "ground_truth_lon": 8.434971,
+      "ground_truth_lat": 49.007037,
+      "description": "I am approximately 12 meters south of a building with a gray side and dark gray roof. Seventeen meters to my southeast stands another building with both sides and roof in gray. Twenty-nine meters northeast of me there is a building with a gray side and dark gray roof. To my east, about 29 meters away, is a building with a beige side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_20544",
+          "distance_m": 29.3,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_20552",
+          "distance_m": 29.3,
+          "direction": "E",
+          "color_side": "beige",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_20566",
+          "distance_m": 17.4,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_20578",
+          "distance_m": 11.7,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "lon": 8.39615,
+      "lat": 49.045243,
+      "ground_truth_lon": 8.39615,
+      "ground_truth_lat": 49.045243,
+      "description": "I am approximately 8 meters north of a building with both sides and roof in red. Eleven meters to my west stands a building with a dark blue side and gray-white roof. To my southwest, 18 meters away, is a building with both sides and roof in purple. Twenty meters northwest of me, there is a building with a gray side and dark gray roof. Thirty-five meters to my northeast—wait, correction: actually 20 meters northeast of me is another building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_38154",
+          "distance_m": 7.9,
+          "direction": "N",
+          "color_side": "red",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_38158",
+          "distance_m": 20.5,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_41495",
+          "distance_m": 17.6,
+          "direction": "SW",
+          "color_side": "purple",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_41524",
+          "distance_m": 11.3,
+          "direction": "W",
+          "color_side": "dark blue",
+          "color_top": "gray-white",
+          "pois": []
+        },
+        {
+          "id": "b_41513",
+          "distance_m": 19.5,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "lon": 8.349169,
+      "lat": 48.995859,
+      "ground_truth_lon": 8.349169,
+      "ground_truth_lat": 48.995859,
+      "description": "I am approximately 15 meters northeast of a building with both sides and roof in dark blue. Nineteen meters to my southeast is another building with a white side and gray roof. Twenty-one meters east of me stands a building with both sides and roof in blue. Twenty-four meters to my north is a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_26622",
+          "distance_m": 23.7,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_26596",
+          "distance_m": 14.7,
+          "direction": "NE",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_26586",
+          "distance_m": 21.2,
+          "direction": "E",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_26578",
+          "distance_m": 19.3,
+          "direction": "SE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "lon": 8.381187,
+      "lat": 49.043227,
+      "ground_truth_lon": 8.381187,
+      "ground_truth_lat": 49.043227,
+      "description": "I am approximately 5 meters south of a building with both sides and roof in blue. Nine meters to my west is another building with both sides and roof in gray. Twenty meters southwest of me stands a building with both sides and roof in gray. Twenty-one meters southeast of me is a building with a gray side and blue roof. Twenty-six meters northeast of me lies a building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_33358",
+          "distance_m": 25.8,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_42141",
+          "distance_m": 21.2,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_33328",
+          "distance_m": 5.2,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_33348",
+          "distance_m": 20.1,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_33338",
+          "distance_m": 8.7,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "lon": 8.434042,
+      "lat": 48.996965,
+      "ground_truth_lon": 8.434042,
+      "ground_truth_lat": 48.996965,
+      "description": "Twenty-eight meters to my northeast stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_47114",
+          "distance_m": 28.1,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "lon": 8.423355,
+      "lat": 49.019416,
+      "ground_truth_lon": 8.423355,
+      "ground_truth_lat": 49.019416,
+      "description": "I am approximately 16 meters northwest of a building with a gray side and dark gray roof. Twenty-two meters to my east is another building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_45187",
+          "distance_m": 22.3,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_19278",
+          "distance_m": 16.4,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "lon": 8.386673,
+      "lat": 48.988033,
+      "ground_truth_lon": 8.386673,
+      "ground_truth_lat": 48.988033,
+      "description": "I am standing near a building 26 meters to my east, with both sides and roof in gray. Twenty-nine meters to my south is another building, with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_25321",
+          "distance_m": 26.4,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_29524",
+          "distance_m": 29.0,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "lon": 8.351446,
+      "lat": 49.015411,
+      "ground_truth_lon": 8.351446,
+      "ground_truth_lat": 49.015411,
+      "description": "I am approximately 26 meters west of a building with a white side and blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_5055",
+          "distance_m": 26.3,
+          "direction": "E",
+          "color_side": "white",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "lon": 8.392011,
+      "lat": 49.003588,
+      "ground_truth_lon": 8.392011,
+      "ground_truth_lat": 49.003588,
+      "description": "I am approximately 14 meters north of a building with both sides and roof in dark blue. Fifteen meters to my south stands a building with a gray side and dark blue roof. Seventeen meters southeast of me is a building with a dark blue side and gray roof. Nineteen meters northeast, I can see a building with both sides and roof in blue. A building with a gray side and dark gray roof is 21 meters northwest of me. Finally, 21 meters southwest there is a building with a gray side and dark blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_4475",
+          "distance_m": 14.5,
+          "direction": "N",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_4462",
+          "distance_m": 19.1,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_4448",
+          "distance_m": 17.4,
+          "direction": "SE",
+          "color_side": "dark blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_4460",
+          "distance_m": 14.6,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_4435",
+          "distance_m": 21.1,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_4441",
+          "distance_m": 21.1,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "lon": 8.398549,
+      "lat": 48.984961,
+      "ground_truth_lon": 8.398549,
+      "ground_truth_lat": 48.984961,
+      "description": "I am approximately 12 meters southeast of a building with a blue side and dark blue roof. Twenty-one meters to my west stands a building with a white side and gray roof. Twenty-six meters northwest of me is a building with a pink side and white roof. Twenty-seven meters southwest of me there is a building with a red-brown side and gray roof. Twenty-nine meters east of me is a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_15557",
+          "distance_m": 29.4,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_32038",
+          "distance_m": 11.9,
+          "direction": "SE",
+          "color_side": "blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_15606",
+          "distance_m": 27.0,
+          "direction": "SW",
+          "color_side": "red-brown",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_15607",
+          "distance_m": 20.5,
+          "direction": "W",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_15545",
+          "distance_m": 26.3,
+          "direction": "NW",
+          "color_side": "pink",
+          "color_top": "white",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "lon": 8.369712,
+      "lat": 48.98018,
+      "ground_truth_lon": 8.369712,
+      "ground_truth_lat": 48.98018,
+      "description": "I am approximately 24 meters north of a building with both sides and roof in unknown. About 28 meters to my southwest stands another building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_49325",
+          "distance_m": 24.2,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_49324",
+          "distance_m": 28.3,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "lon": 8.442762,
+      "lat": 49.012943,
+      "ground_truth_lon": 8.442762,
+      "ground_truth_lat": 49.012943,
+      "description": "I am approximately 5 meters southeast of a building with both sides and roof in gray. Sixteen meters to my northeast stands another building, with a red-purple side and red roof. Twenty-six meters northwest of me is a building with a gray side and dark gray roof. Finally, twenty-eight meters north of me there is a building with a purple side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_2978",
+          "distance_m": 27.6,
+          "direction": "N",
+          "color_side": "purple",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_3194",
+          "distance_m": 16.3,
+          "direction": "NE",
+          "color_side": "red-purple",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_3187",
+          "distance_m": 4.8,
+          "direction": "SE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_2999",
+          "distance_m": 25.6,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "lon": 8.394096,
+      "lat": 49.004419,
+      "ground_truth_lon": 8.394096,
+      "ground_truth_lat": 49.004419,
+      "description": "I am approximately 10 meters southwest of a building with a gray side and dark gray roof. Twenty-three meters to my northeast stands a building with a red-brown side and dark gray roof, inside which there is a adult_gaming_centre. Sixteen meters northwest of me is a building with a gray side and red roof. Twenty-seven meters to my west sits a building with a blue side and gray roof. Twenty-eight meters south of me lies a building with a blue side and cyan roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_42398",
+          "distance_m": 22.6,
+          "direction": "NE",
+          "color_side": "red-brown",
+          "color_top": "dark gray",
+          "pois": [
+            {
+              "fclass": "adult_gaming_centre",
+              "name": "Spiel Arena"
+            }
+          ]
+        },
+        {
+          "id": "b_18452",
+          "distance_m": 27.6,
+          "direction": "S",
+          "color_side": "blue",
+          "color_top": "cyan",
+          "pois": []
+        },
+        {
+          "id": "b_18494",
+          "distance_m": 10.4,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_18495",
+          "distance_m": 27.2,
+          "direction": "W",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_18489",
+          "distance_m": 15.7,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "red",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "lon": 8.426312,
+      "lat": 49.021809,
+      "ground_truth_lon": 8.426312,
+      "ground_truth_lat": 49.021809,
+      "description": "I am approximately 13 meters northeast of a building with both sides and roof in unknown. Thirteen meters to my north is another building with a gray side and dark gray roof. Nineteen meters",
+      "nearby_buildings": [
+        {
+          "id": "b_19613",
+          "distance_m": 13.2,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_19552",
+          "distance_m": 12.9,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_19541",
+          "distance_m": 19.0,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "lon": 8.43638,
+      "lat": 49.034019,
+      "ground_truth_lon": 8.43638,
+      "ground_truth_lat": 49.034019,
+      "description": "I am approximately 12 meters northwest of a building with both sides and roof in purple. Twenty-one meters to my west is another building with both sides and roof in purple.",
+      "nearby_buildings": [
+        {
+          "id": "b_43270",
+          "distance_m": 21.0,
+          "direction": "W",
+          "color_side": "purple",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_43271",
+          "distance_m": 12.4,
+          "direction": "NW",
+          "color_side": "purple",
+          "color_top": "purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "lon": 8.348158,
+      "lat": 49.014789,
+      "ground_truth_lon": 8.348158,
+      "ground_truth_lat": 49.014789,
+      "description": "I am approximately 29 meters southeast of a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_32186",
+          "distance_m": 29.0,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "lon": 8.369399,
+      "lat": 49.009201,
+      "ground_truth_lon": 8.369399,
+      "ground_truth_lat": 49.009201,
+      "description": "I am approximately 15 meters west of a building with a gray side and red roof. 19 meters to my southwest is a building with a blue side and dark blue roof. 22 meters to my northwest stands a building with a gray side and dark gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_14221",
+          "distance_m": 18.9,
+          "direction": "SW",
+          "color_side": "blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_14224",
+          "distance_m": 14.9,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_38549",
+          "distance_m": 21.6,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "lon": 8.384081,
+      "lat": 49.016801,
+      "ground_truth_lon": 8.384081,
+      "ground_truth_lat": 49.016801,
+      "description": "I am approximately 9 meters north of a building with a pink side and purple roof. Fourteen meters to my northeast stands another building with a red side and blue roof. Fourteen meters to my northwest is a building with a red side and dark blue roof. Eighteen meters south of me there is a building with a pink side and dark blue roof. Twenty-one meters to my southwest is a building with a red side and dark blue roof. Twenty-one meters southeast of me sits a building with a red-brown side and dark purple roof. Finally, 27 meters west of me is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_40144",
+          "distance_m": 8.6,
+          "direction": "N",
+          "color_side": "pink",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_45418",
+          "distance_m": 14.0,
+          "direction": "NE",
+          "color_side": "red",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_40079",
+          "distance_m": 21.1,
+          "direction": "SE",
+          "color_side": "red-brown",
+          "color_top": "dark purple",
+          "pois": []
+        },
+        {
+          "id": "b_40348",
+          "distance_m": 17.7,
+          "direction": "S",
+          "color_side": "pink",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_40299",
+          "distance_m": 20.9,
+          "direction": "SW",
+          "color_side": "red",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_10467",
+          "distance_m": 26.9,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_40137",
+          "distance_m": 14.2,
+          "direction": "NW",
+          "color_side": "red",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "lon": 8.381083,
+      "lat": 48.983608,
+      "ground_truth_lon": 8.381083,
+      "ground_truth_lat": 48.983608,
+      "description": "I am approximately 26 meters southeast of a building with both sides and roof in dark blue. Twenty-six meters to my south is another building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_35403",
+          "distance_m": 26.0,
+          "direction": "SE",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_28124",
+          "distance_m": 26.4,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "lon": 8.371442,
+      "lat": 49.026611,
+      "ground_truth_lon": 8.371442,
+      "ground_truth_lat": 49.026611,
+      "description": "I am approximately 19 meters to the northwest of a building with a blue side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_711",
+          "distance_m": 18.7,
+          "direction": "NW",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "lon": 8.444708,
+      "lat": 49.025659,
+      "ground_truth_lon": 8.444708,
+      "ground_truth_lat": 49.025659,
+      "description": "I am about 12 meters north of a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_46620",
+          "distance_m": 12.1,
+          "direction": "N",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "lon": 8.361813,
+      "lat": 48.983622,
+      "ground_truth_lon": 8.361813,
+      "ground_truth_lat": 48.983622,
+      "description": "I am approximately 24 meters to the north of a building with a gray side and dark gray roof. Twenty-six meters northeast of me stands a building with a white side and gray roof. Thirty meters southwest of me is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_40625",
+          "distance_m": 23.9,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_40624",
+          "distance_m": 25.7,
+          "direction": "NE",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_27487",
+          "distance_m": 29.6,
+          "direction": "SW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "lon": 8.383443,
+      "lat": 49.022029,
+      "ground_truth_lon": 8.383443,
+      "ground_truth_lat": 49.022029,
+      "description": "I am approximately 13 meters northwest of a building with both sides and roof in dark blue. Thirteen meters to my west stands another building with a gray side and blue roof. Sixteen meters north of me is a building with a blue side and purple roof. Twenty-five meters southwest from my position rises a building with a white side and red roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_11025",
+          "distance_m": 15.7,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "purple",
+          "pois": []
+        },
+        {
+          "id": "b_11048",
+          "distance_m": 24.8,
+          "direction": "SW",
+          "color_side": "white",
+          "color_top": "red",
+          "pois": []
+        },
+        {
+          "id": "b_11041",
+          "distance_m": 13.3,
+          "direction": "W",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_11035",
+          "distance_m": 12.9,
+          "direction": "NW",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "lon": 8.373663,
+      "lat": 49.043934,
+      "ground_truth_lon": 8.373663,
+      "ground_truth_lat": 49.043934,
+      "description": "I am approximately 4 meters north of a building with a gray side and dark gray roof. Eight meters to my northwest is a building with a brown side and dark gray roof. Thirteen",
+      "nearby_buildings": [
+        {
+          "id": "b_33395",
+          "distance_m": 17.4,
+          "direction": "N",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_33418",
+          "distance_m": 12.9,
+          "direction": "NE",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_33424",
+          "distance_m": 4.1,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_33428",
+          "distance_m": 7.6,
+          "direction": "NW",
+          "color_side": "brown",
+          "color_top": "dark gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "lon": 8.3589,
+      "lat": 48.998721,
+      "ground_truth_lon": 8.3589,
+      "ground_truth_lat": 48.998721,
+      "description": "I am approximately 22 meters south of a building with both sides and roof in gray. Twenty-five meters to my north stands another building with a gray side and dark blue roof. Twenty-six meters northeast of me is a building with a blue side and white roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_18773",
+          "distance_m": 25.3,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_18783",
+          "distance_m": 26.1,
+          "direction": "NE",
+          "color_side": "blue",
+          "color_top": "white",
+          "pois": []
+        },
+        {
+          "id": "b_18786",
+          "distance_m": 21.7,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "lon": 8.365253,
+      "lat": 49.015132,
+      "ground_truth_lon": 8.365253,
+      "ground_truth_lat": 49.015132,
+      "description": "I am approximately 11 meters north of a building with a gray side",
+      "nearby_buildings": [
+        {
+          "id": "b_38875",
+          "distance_m": 23.8,
+          "direction": "NE",
+          "color_side": "pink",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_38876",
+          "distance_m": 16.2,
+          "direction": "SE",
+          "color_side": "red-brown",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_38879",
+          "distance_m": 11.0,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_38881",
+          "distance_m": 29.3,
+          "direction": "SW",
+          "color_side": "pink",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_38878",
+          "distance_m": 22.7,
+          "direction": "NW",
+          "color_side": "pink",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "lon": 8.448699,
+      "lat": 49.014531,
+      "ground_truth_lon": 8.448699,
+      "ground_truth_lat": 49.014531,
+      "description": "To my west, 9 meters away, is a building with both sides and roof in unknown. Nine meters to my northeast is another building with both sides and roof in unknown. Twenty-six meters to my south stands a building with a white side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_21177",
+          "distance_m": 9.3,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_21197",
+          "distance_m": 26.3,
+          "direction": "S",
+          "color_side": "white",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_21172",
+          "distance_m": 8.6,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "lon": 8.360186,
+      "lat": 49.039723,
+      "ground_truth_lon": 8.360186,
+      "ground_truth_lat": 49.039723,
+      "description": "Twenty-five meters to my southwest stands a building with a gray side and blue roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_44861",
+          "distance_m": 24.7,
+          "direction": "SW",
+          "color_side": "gray",
+          "color_top": "blue",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "lon": 8.440121,
+      "lat": 49.030427,
+      "ground_truth_lon": 8.440121,
+      "ground_truth_lat": 49.030427,
+      "description": "I am approximately 16 meters north of a building with both sides and roof in unknown. Twenty meters to my northeast is another building with both sides and roof in unknown. Twenty-one meters south of me stands a building with both sides and roof in unknown. To my southeast, 24 meters away, there is a building with both sides and roof in unknown. Thirty-eight meters northwest of me, I see a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_13845",
+          "distance_m": 15.9,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_13854",
+          "distance_m": 19.7,
+          "direction": "NE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_13851",
+          "distance_m": 24.1,
+          "direction": "SE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_13876",
+          "distance_m": 21.3,
+          "direction": "S",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_13904",
+          "distance_m": 27.7,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "lon": 8.387548,
+      "lat": 49.012896,
+      "ground_truth_lon": 8.387548,
+      "ground_truth_lat": 49.012896,
+      "description": "I am approximately 15 meters southeast of a building with a red side and blue roof. Twenty-two meters to my southwest stands another building with a blue side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_10726",
+          "distance_m": 14.8,
+          "direction": "SE",
+          "color_side": "red",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_39733",
+          "distance_m": 22.3,
+          "direction": "SW",
+          "color_side": "blue",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "lon": 8.408714,
+      "lat": 49.016964,
+      "ground_truth_lon": 8.408714,
+      "ground_truth_lat": 49.016964,
+      "description": "I am approximately 3 meters southeast of a building with both sides and roof in unknown. 13 meters to my north is a building with both sides and roof in unknown. 13 meters to my east stands a building with a gray side and dark gray roof. 15 meters to my west is a building with both sides and roof in unknown. 19 meters to my south stands a building with both sides and roof in dark blue. 28 meters to my northwest is a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_11856",
+          "distance_m": 13.1,
+          "direction": "N",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_11853",
+          "distance_m": 13.2,
+          "direction": "E",
+          "color_side": "gray",
+          "color_top": "dark gray",
+          "pois": []
+        },
+        {
+          "id": "b_11848",
+          "distance_m": 3.5,
+          "direction": "SE",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_11866",
+          "distance_m": 19.0,
+          "direction": "S",
+          "color_side": "dark blue",
+          "color_top": "dark blue",
+          "pois": []
+        },
+        {
+          "id": "b_11871",
+          "distance_m": 15.4,
+          "direction": "W",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_11844",
+          "distance_m": 28.4,
+          "direction": "NW",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "lon": 8.393407,
+      "lat": 49.028279,
+      "ground_truth_lon": 8.393407,
+      "ground_truth_lat": 49.028279,
+      "description": "I am approximately 6 meters north of a building with a purple side and gray roof. Six meters to my east stands a building with both sides and roof in unknown. Sixteen meters northwest of me is another building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_37017",
+          "distance_m": 5.7,
+          "direction": "N",
+          "color_side": "purple",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_36990",
+          "distance_m": 6.4,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        },
+        {
+          "id": "b_37042",
+          "distance_m": 15.8,
+          "direction": "NW",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "lon": 8.357463,
+      "lat": 49.038615,
+      "ground_truth_lon": 8.357463,
+      "ground_truth_lat": 49.038615,
+      "description": "Twenty-three meters to my east stands a building with both sides and roof in unknown.",
+      "nearby_buildings": [
+        {
+          "id": "b_45329",
+          "distance_m": 23.1,
+          "direction": "E",
+          "color_side": "unknown",
+          "color_top": "unknown",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "lon": 8.372609,
+      "lat": 49.003333,
+      "ground_truth_lon": 8.372609,
+      "ground_truth_lat": 49.003333,
+      "description": "I am approximately 16 meters southeast of a building with a dark blue side and purple-red roof. Twenty meters to my south is another building with a gray side and purple roof. East of me, about 25 meters away, stands a building with both sides and roof in blue.",
+      "nearby_buildings": [
+        {
+          "id": "b_12497",
+          "distance_m": 25.2,
+          "direction": "E",
+          "color_side": "blue",
+          "color_top": "blue",
+          "pois": []
+        },
+        {
+          "id": "b_12479",
+          "distance_m": 15.6,
+          "direction": "SE",
+          "color_side": "dark blue",
+          "color_top": "purple-red",
+          "pois": []
+        },
+        {
+          "id": "b_12487",
+          "distance_m": 20.2,
+          "direction": "S",
+          "color_side": "gray",
+          "color_top": "purple",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "lon": 8.433618,
+      "lat": 49.014622,
+      "ground_truth_lon": 8.433618,
+      "ground_truth_lat": 49.014622,
+      "description": "I am approximately eight meters to the northwest of a building with a red side and gray roof. To my southwest, twelve meters away, is another building with a red side and gray roof. Fifteen meters north of me stands a building with a red side and gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_42874",
+          "distance_m": 15.1,
+          "direction": "N",
+          "color_side": "red",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_3435",
+          "distance_m": 12.3,
+          "direction": "SW",
+          "color_side": "red",
+          "color_top": "gray",
+          "pois": []
+        },
+        {
+          "id": "b_42873",
+          "distance_m": 7.9,
+          "direction": "NW",
+          "color_side": "red",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "lon": 8.348586,
+      "lat": 49.016411,
+      "ground_truth_lon": 8.348586,
+      "ground_truth_lat": 49.016411,
+      "description": "I am approximately 10 meters southeast of a building with a light gray-blue side and light gray roof.",
+      "nearby_buildings": [
+        {
+          "id": "b_37738",
+          "distance_m": 10.1,
+          "direction": "SE",
+          "color_side": "light gray-blue",
+          "color_top": "light gray",
+          "pois": []
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "lon": 8.397657,
+      "lat": 48.995444,
+      "ground_truth_lon": 8.397657,
+      "ground_truth_lat": 48.995444,
+      "description": "I am approximately 30 meters south of a building with both sides and roof in gray.",
+      "nearby_buildings": [
+        {
+          "id": "b_18603",
+          "distance_m": 29.6,
+          "direction": "N",
+          "color_side": "gray",
+          "color_top": "gray",
+          "pois": []
+        }
+      ]
+    }
+  ]
+}

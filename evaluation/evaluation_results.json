@@ -1,0 +1,1099 @@
+{
+  "config": {
+    "scenes_file": "D:\\TTT\\GeoKG\\Helsinki data\\test1\\Karlsruhe-data-prepare\\scenes_100_llm.json",
+    "kg_type": "buffer",
+    "num_points": 70,
+    "neo4j_uri": "bolt://localhost:7687",
+    "llm_model": "DeepSeek-V4-Flash",
+    "eval_thresholds_m": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ]
+  },
+  "evaluation": {
+    "recall": {
+      "Recall@1(5m)": 0.0,
+      "Recall@1(10m)": 0.0,
+      "Recall@1(15m)": 0.0,
+      "Recall@1(20m)": 0.0,
+      "Recall@1(25m)": 0.0,
+      "Recall@5(5m)": 0.0,
+      "Recall@5(10m)": 0.0,
+      "Recall@5(15m)": 0.0,
+      "Recall@5(20m)": 0.0,
+      "Recall@5(25m)": 0.0
+    },
+    "mean_distance_error_m": 3989.51,
+    "median_distance_error_m": 3993.22,
+    "success_rate": 0.5429,
+    "num_success": 38,
+    "num_total": 70,
+    "distance_percentiles": {
+      "p25": 2706.33,
+      "p50": 3993.22,
+      "p75": 5329.62,
+      "p90": 5960.05
+    }
+  },
+  "details": [
+    {
+      "point_id": 0,
+      "ground_truth": {
+        "lon": 8.342751,
+        "lat": 49.02476
+      },
+      "predicted": {
+        "lon": 8.375373947093602,
+        "lat": 49.033882420836235
+      },
+      "status": "success",
+      "distance_error_m": 2585.73,
+      "confidence": 0.4532,
+      "num_references": 6,
+      "num_matches": 1
+    },
+    {
+      "point_id": 1,
+      "ground_truth": {
+        "lon": 8.364553,
+        "lat": 48.999252
+      },
+      "predicted": {
+        "lon": 8.373943001861488,
+        "lat": 49.03561452922393
+      },
+      "status": "success",
+      "distance_error_m": 4100.9,
+      "confidence": 0.5788,
+      "num_references": 2,
+      "num_matches": 34
+    },
+    {
+      "point_id": 4,
+      "ground_truth": {
+        "lon": 8.343278,
+        "lat": 49.009535
+      },
+      "predicted": {
+        "lon": 8.374421429739915,
+        "lat": 49.03401374008575
+      },
+      "status": "success",
+      "distance_error_m": 3544.85,
+      "confidence": 0.6249,
+      "num_references": 3,
+      "num_matches": 25
+    },
+    {
+      "point_id": 5,
+      "ground_truth": {
+        "lon": 8.395589,
+        "lat": 48.995305
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 6,
+      "ground_truth": {
+        "lon": 8.361872,
+        "lat": 48.981858
+      },
+      "predicted": {
+        "lon": 8.375156339376373,
+        "lat": 49.03403999123032
+      },
+      "status": "success",
+      "distance_error_m": 5882.72,
+      "confidence": 0.3077,
+      "num_references": 4,
+      "num_matches": 21
+    },
+    {
+      "point_id": 8,
+      "ground_truth": {
+        "lon": 8.404819,
+        "lat": 48.995431
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 9,
+      "ground_truth": {
+        "lon": 8.340715,
+        "lat": 49.03666
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 11,
+      "ground_truth": {
+        "lon": 8.357103,
+        "lat": 49.003818
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 12,
+      "ground_truth": {
+        "lon": 8.377025,
+        "lat": 49.047005
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 13,
+      "ground_truth": {
+        "lon": 8.350639,
+        "lat": 48.986492
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 16,
+      "ground_truth": {
+        "lon": 8.447043,
+        "lat": 49.017536
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 17,
+      "ground_truth": {
+        "lon": 8.400724,
+        "lat": 49.006497
+      },
+      "predicted": {
+        "lon": 8.374534306361845,
+        "lat": 49.03368300526503
+      },
+      "status": "success",
+      "distance_error_m": 3575.68,
+      "confidence": 0.3561,
+      "num_references": 3,
+      "num_matches": 21
+    },
+    {
+      "point_id": 20,
+      "ground_truth": {
+        "lon": 8.345041,
+        "lat": 49.02932
+      },
+      "predicted": {
+        "lon": 8.37477864828689,
+        "lat": 49.03339839340334
+      },
+      "status": "success",
+      "distance_error_m": 2214.93,
+      "confidence": 0.7477,
+      "num_references": 5,
+      "num_matches": 4
+    },
+    {
+      "point_id": 21,
+      "ground_truth": {
+        "lon": 8.371833,
+        "lat": 48.995953
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 22,
+      "ground_truth": {
+        "lon": 8.365607,
+        "lat": 48.985585
+      },
+      "predicted": {
+        "lon": 8.374649350902478,
+        "lat": 49.034078379908905
+      },
+      "status": "success",
+      "distance_error_m": 5432.4,
+      "confidence": 0.3459,
+      "num_references": 5,
+      "num_matches": 6
+    },
+    {
+      "point_id": 23,
+      "ground_truth": {
+        "lon": 8.370577,
+        "lat": 48.98707
+      },
+      "predicted": {
+        "lon": 8.374916036116515,
+        "lat": 49.03451983195989
+      },
+      "status": "success",
+      "distance_error_m": 5285.66,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 25,
+      "ground_truth": {
+        "lon": 8.363046,
+        "lat": 49.005913
+      },
+      "predicted": {
+        "lon": 8.37524090672629,
+        "lat": 49.03412674794481
+      },
+      "status": "success",
+      "distance_error_m": 3260.82,
+      "confidence": 0.5814,
+      "num_references": 2,
+      "num_matches": 34
+    },
+    {
+      "point_id": 26,
+      "ground_truth": {
+        "lon": 8.443032,
+        "lat": 48.998688
+      },
+      "predicted": {
+        "lon": 8.369303245585892,
+        "lat": 49.02229505538023
+      },
+      "status": "success",
+      "distance_error_m": 5983.9,
+      "confidence": 0.6127,
+      "num_references": 2,
+      "num_matches": 25
+    },
+    {
+      "point_id": 27,
+      "ground_truth": {
+        "lon": 8.407004,
+        "lat": 49.025362
+      },
+      "predicted": {
+        "lon": 8.374326846747124,
+        "lat": 49.033880028229945
+      },
+      "status": "success",
+      "distance_error_m": 2563.77,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 28,
+      "ground_truth": {
+        "lon": 8.420204,
+        "lat": 48.99198
+      },
+      "predicted": {
+        "lon": 8.375377632846233,
+        "lat": 49.03418880698611
+      },
+      "status": "success",
+      "distance_error_m": 5719.79,
+      "confidence": 0.4264,
+      "num_references": 2,
+      "num_matches": 30
+    },
+    {
+      "point_id": 29,
+      "ground_truth": {
+        "lon": 8.38174,
+        "lat": 48.991438
+      },
+      "predicted": {
+        "lon": 8.374855400804712,
+        "lat": 49.03384817657314
+      },
+      "status": "success",
+      "distance_error_m": 4742.45,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 31,
+      "ground_truth": {
+        "lon": 8.415308,
+        "lat": 49.018986
+      },
+      "predicted": {
+        "lon": 8.374916036116515,
+        "lat": 49.03467298511304
+      },
+      "status": "success",
+      "distance_error_m": 3422.83,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 33,
+      "ground_truth": {
+        "lon": 8.343531,
+        "lat": 48.996033
+      },
+      "predicted": {
+        "lon": 8.373498513793335,
+        "lat": 49.03532010294655
+      },
+      "status": "success",
+      "distance_error_m": 4884.69,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 34,
+      "ground_truth": {
+        "lon": 8.369451,
+        "lat": 49.002082
+      },
+      "predicted": {
+        "lon": 8.375102283471817,
+        "lat": 49.034165229499095
+      },
+      "status": "success",
+      "distance_error_m": 3591.22,
+      "confidence": 0.5565,
+      "num_references": 3,
+      "num_matches": 15
+    },
+    {
+      "point_id": 35,
+      "ground_truth": {
+        "lon": 8.44372,
+        "lat": 48.994769
+      },
+      "predicted": {
+        "lon": 8.37462654717238,
+        "lat": 49.03391918307299
+      },
+      "status": "success",
+      "distance_error_m": 6658.99,
+      "confidence": 0.4985,
+      "num_references": 3,
+      "num_matches": 28
+    },
+    {
+      "point_id": 36,
+      "ground_truth": {
+        "lon": 8.374615,
+        "lat": 49.041346
+      },
+      "predicted": {
+        "lon": 8.374566217445581,
+        "lat": 49.03412667189812
+      },
+      "status": "success",
+      "distance_error_m": 802.76,
+      "confidence": 0.7112,
+      "num_references": 2,
+      "num_matches": 31
+    },
+    {
+      "point_id": 37,
+      "ground_truth": {
+        "lon": 8.38352,
+        "lat": 49.025881
+      },
+      "predicted": {
+        "lon": 8.374790049832018,
+        "lat": 49.0337189435557
+      },
+      "status": "success",
+      "distance_error_m": 1079.2,
+      "confidence": 0.5681,
+      "num_references": 3,
+      "num_matches": 23
+    },
+    {
+      "point_id": 38,
+      "ground_truth": {
+        "lon": 8.390474,
+        "lat": 49.044018
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 39,
+      "ground_truth": {
+        "lon": 8.367129,
+        "lat": 48.998542
+      },
+      "predicted": {
+        "lon": 8.374945455571616,
+        "lat": 49.03388365914748
+      },
+      "status": "success",
+      "distance_error_m": 3970.94,
+      "confidence": 0.5605,
+      "num_references": 6,
+      "num_matches": 5
+    },
+    {
+      "point_id": 40,
+      "ground_truth": {
+        "lon": 8.368902,
+        "lat": 49.019296
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 41,
+      "ground_truth": {
+        "lon": 8.438761,
+        "lat": 49.020921
+      },
+      "predicted": {
+        "lon": 8.374129809111494,
+        "lat": 49.03465623587379
+      },
+      "status": "success",
+      "distance_error_m": 4953.57,
+      "confidence": 0.3719,
+      "num_references": 6,
+      "num_matches": 48
+    },
+    {
+      "point_id": 42,
+      "ground_truth": {
+        "lon": 8.364125,
+        "lat": 49.007958
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 43,
+      "ground_truth": {
+        "lon": 8.396048,
+        "lat": 49.049828
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 46,
+      "ground_truth": {
+        "lon": 8.386438,
+        "lat": 49.035446
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 47,
+      "ground_truth": {
+        "lon": 8.381978,
+        "lat": 48.984447
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 48,
+      "ground_truth": {
+        "lon": 8.398203,
+        "lat": 49.049728
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_reference",
+      "distance_error_m": null,
+      "message": "未解析到参照物"
+    },
+    {
+      "point_id": 52,
+      "ground_truth": {
+        "lon": 8.410506,
+        "lat": 48.998678
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 53,
+      "ground_truth": {
+        "lon": 8.387824,
+        "lat": 48.987809
+      },
+      "predicted": {
+        "lon": 8.375260337118792,
+        "lat": 49.03468287655255
+      },
+      "status": "success",
+      "distance_error_m": 5292.07,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 54,
+      "ground_truth": {
+        "lon": 8.44492,
+        "lat": 49.011761
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 55,
+      "ground_truth": {
+        "lon": 8.368973,
+        "lat": 49.04131
+      },
+      "predicted": {
+        "lon": 8.368937405784365,
+        "lat": 49.02206680595184
+      },
+      "status": "success",
+      "distance_error_m": 2139.75,
+      "confidence": 0.6267,
+      "num_references": 3,
+      "num_matches": 25
+    },
+    {
+      "point_id": 56,
+      "ground_truth": {
+        "lon": 8.359652,
+        "lat": 49.015041
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 58,
+      "ground_truth": {
+        "lon": 8.410284,
+        "lat": 49.000891
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 59,
+      "ground_truth": {
+        "lon": 8.356812,
+        "lat": 49.022628
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 60,
+      "ground_truth": {
+        "lon": 8.399332,
+        "lat": 49.033376
+      },
+      "predicted": {
+        "lon": 8.374206722280398,
+        "lat": 49.03444432560878
+      },
+      "status": "success",
+      "distance_error_m": 1835.5,
+      "confidence": 0.5,
+      "num_references": 1,
+      "num_matches": 8
+    },
+    {
+      "point_id": 61,
+      "ground_truth": {
+        "lon": 8.398339,
+        "lat": 49.034504
+      },
+      "predicted": {
+        "lon": 8.375285061556234,
+        "lat": 49.03400171713976
+      },
+      "status": "success",
+      "distance_error_m": 1681.57,
+      "confidence": 0.3109,
+      "num_references": 5,
+      "num_matches": 50
+    },
+    {
+      "point_id": 62,
+      "ground_truth": {
+        "lon": 8.375657,
+        "lat": 48.98004
+      },
+      "predicted": {
+        "lon": 8.374195107339078,
+        "lat": 49.03353952832079
+      },
+      "status": "success",
+      "distance_error_m": 5949.83,
+      "confidence": 0.4223,
+      "num_references": 2,
+      "num_matches": 36
+    },
+    {
+      "point_id": 65,
+      "ground_truth": {
+        "lon": 8.346372,
+        "lat": 49.001526
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 66,
+      "ground_truth": {
+        "lon": 8.444164,
+        "lat": 49.041461
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 67,
+      "ground_truth": {
+        "lon": 8.393459,
+        "lat": 48.985996
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 69,
+      "ground_truth": {
+        "lon": 8.354123,
+        "lat": 49.033608
+      },
+      "predicted": {
+        "lon": 8.37435587473877,
+        "lat": 49.03396281514737
+      },
+      "status": "success",
+      "distance_error_m": 1475.52,
+      "confidence": 0.4707,
+      "num_references": 5,
+      "num_matches": 5
+    },
+    {
+      "point_id": 70,
+      "ground_truth": {
+        "lon": 8.400478,
+        "lat": 49.01327
+      },
+      "predicted": {
+        "lon": 8.375021298460142,
+        "lat": 49.03402029860435
+      },
+      "status": "success",
+      "distance_error_m": 2961.29,
+      "confidence": 0.413,
+      "num_references": 3,
+      "num_matches": 28
+    },
+    {
+      "point_id": 71,
+      "ground_truth": {
+        "lon": 8.435968,
+        "lat": 48.998554
+      },
+      "predicted": {
+        "lon": 8.375412199093692,
+        "lat": 49.033380752307544
+      },
+      "status": "success",
+      "distance_error_m": 5873.6,
+      "confidence": 0.7145,
+      "num_references": 2,
+      "num_matches": 32
+    },
+    {
+      "point_id": 72,
+      "ground_truth": {
+        "lon": 8.363298,
+        "lat": 49.00962
+      },
+      "predicted": {
+        "lon": 8.375160585704217,
+        "lat": 49.03494896967869
+      },
+      "status": "success",
+      "distance_error_m": 2946.29,
+      "confidence": 0.3535,
+      "num_references": 7,
+      "num_matches": 4
+    },
+    {
+      "point_id": 74,
+      "ground_truth": {
+        "lon": 8.374289,
+        "lat": 48.994081
+      },
+      "predicted": {
+        "lon": 8.375256133222122,
+        "lat": 49.03396725597763
+      },
+      "status": "success",
+      "distance_error_m": 4435.71,
+      "confidence": 0.3409,
+      "num_references": 3,
+      "num_matches": 20
+    },
+    {
+      "point_id": 76,
+      "ground_truth": {
+        "lon": 8.396933,
+        "lat": 49.010667
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 77,
+      "ground_truth": {
+        "lon": 8.364717,
+        "lat": 48.98847
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 78,
+      "ground_truth": {
+        "lon": 8.404714,
+        "lat": 49.003666
+      },
+      "predicted": {
+        "lon": 8.374653051169478,
+        "lat": 49.03392223492988
+      },
+      "status": "success",
+      "distance_error_m": 4015.5,
+      "confidence": 0.6915,
+      "num_references": 5,
+      "num_matches": 2
+    },
+    {
+      "point_id": 79,
+      "ground_truth": {
+        "lon": 8.364224,
+        "lat": 48.996108
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 81,
+      "ground_truth": {
+        "lon": 8.439596,
+        "lat": 48.996026
+      },
+      "predicted": {
+        "lon": 8.375045784165932,
+        "lat": 49.034146225015576
+      },
+      "status": "success",
+      "distance_error_m": 6334.68,
+      "confidence": 0.0441,
+      "num_references": 3,
+      "num_matches": 24
+    },
+    {
+      "point_id": 82,
+      "ground_truth": {
+        "lon": 8.347794,
+        "lat": 49.040174
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 84,
+      "ground_truth": {
+        "lon": 8.354554,
+        "lat": 48.994997
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 86,
+      "ground_truth": {
+        "lon": 8.426308,
+        "lat": 49.013087
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 88,
+      "ground_truth": {
+        "lon": 8.387416,
+        "lat": 48.986785
+      },
+      "predicted": {
+        "lon": 8.37435935050176,
+        "lat": 49.03405855658452
+      },
+      "status": "success",
+      "distance_error_m": 5342.14,
+      "confidence": 0.5505,
+      "num_references": 4,
+      "num_matches": 9
+    },
+    {
+      "point_id": 89,
+      "ground_truth": {
+        "lon": 8.391373,
+        "lat": 49.009651
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 92,
+      "ground_truth": {
+        "lon": 8.377323,
+        "lat": 49.008183
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 94,
+      "ground_truth": {
+        "lon": 8.389347,
+        "lat": 48.993315
+      },
+      "predicted": {
+        "lon": null,
+        "lat": null
+      },
+      "status": "no_match",
+      "distance_error_m": null,
+      "message": "未找到匹配组合"
+    },
+    {
+      "point_id": 95,
+      "ground_truth": {
+        "lon": 8.37064,
+        "lat": 49.009532
+      },
+      "predicted": {
+        "lon": 8.375112538928786,
+        "lat": 49.033859997822326
+      },
+      "status": "success",
+      "distance_error_m": 2724.74,
+      "confidence": 0.8045,
+      "num_references": 2,
+      "num_matches": 21
+    },
+    {
+      "point_id": 96,
+      "ground_truth": {
+        "lon": 8.441559,
+        "lat": 48.997486
+      },
+      "predicted": {
+        "lon": 8.37331227125573,
+        "lat": 49.03569527694796
+      },
+      "status": "success",
+      "distance_error_m": 6543.81,
+      "confidence": 0.742,
+      "num_references": 2,
+      "num_matches": 34
+    },
+    {
+      "point_id": 97,
+      "ground_truth": {
+        "lon": 8.434748,
+        "lat": 49.011019
+      },
+      "predicted": {
+        "lon": 8.374490745495065,
+        "lat": 49.034153561943796
+      },
+      "status": "success",
+      "distance_error_m": 5091.46,
+      "confidence": 0.6417,
+      "num_references": 6,
+      "num_matches": 1
+    },
+    {
+      "point_id": 98,
+      "ground_truth": {
+        "lon": 8.345565,
+        "lat": 49.018523
+      },
+      "predicted": {
+        "lon": 8.374477620860489,
+        "lat": 49.0336974703606
+      },
+      "status": "success",
+      "distance_error_m": 2700.2,
+      "confidence": 0.2678,
+      "num_references": 4,
+      "num_matches": 27
+    }
+  ]
+}

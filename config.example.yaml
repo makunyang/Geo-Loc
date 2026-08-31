@@ -1,0 +1,52 @@
+# GeoKG-Loc Configuration Template
+# Copy this file to config.yaml and fill in your settings.
+# Do NOT commit config.yaml to version control.
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "your_password"
+
+llm:
+  # OpenAI-compatible API endpoint
+  # DeepSeek: https://api.deepseek.com/v1
+  # OpenAI: https://api.openai.com/v1
+  api_key: "your_api_key"
+  base_url: "https://api.deepseek.com/v1"
+  model: "deepseek-chat"
+
+# Vision model for building color extraction
+vlm:
+  api_key: "your_api_key"
+  base_url: "https://api.example.com/v1"
+  model: "qwen-vl-max"
+
+paths:
+  # Input data
+  buildings_csv: "buildings_with_colors.csv"
+  pois_csv: "pois_raw.csv"
+  raster_tif: "aerial_imagery.tif"
+
+  # Test scenes
+  scenes_json: "evaluation/scenes_100_llm.json"
+  output_json: "evaluation/evaluation_results.json"
+
+  # KG output directory
+  kg_output_dir: "./KGdata"
+
+# Knowledge graph construction parameters
+kg:
+  buffer_radius_m: 100        # Building-Building buffer radius (best: 100)
+  near_threshold_m: 50        # Building-POI NEAR distance threshold
+  delaunay: false              # Use Delaunay triangulation instead of buffer
+
+# Scene generation parameters
+scenes:
+  num_points: 100
+  search_radius_m: 100
+  seed: 42
+  bbox:
+    north: 49.05
+    south: 48.98
+    east: 8.45
+    west: 8.34
